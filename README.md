@@ -14,6 +14,9 @@ Moves files into categories:
 📄 Text files (.txt)
 📑 CSV files (.csv)
 Prevents duplicate file moves
+
+
+
 🛠️ Technologies Used
 Python
 Built-in modules:
@@ -27,6 +30,10 @@ Your Directory/
 ├── text files/
 ├── image files/
 ├── your_script.ipynb / .py
+
+
+
+
 ⚙️ How It Works
 Specify the directory path:
 path = r"D:/Python Files/"
@@ -34,6 +41,9 @@ The script:
 Reads all files in the directory
 Creates category folders (if missing)
 Moves files based on their extensions
+
+
+
 ▶️ How to Run
 Option 1: Jupyter Notebook
 Open the .ipynb file
@@ -42,6 +52,9 @@ Option 2: Python Script
 Convert to .py (if needed)
 Run:
 python file_organizer.py
+
+
+
 ⚠️ Important Notes
 Ensure the path exists before running
 Use correct path formatting (r"path" recommended for Windows)
@@ -52,6 +65,9 @@ Add logging system
 Add GUI (Tkinter / PyQt)
 Add undo functionality
 Allow dynamic folder creation based on extensions
+
+
+
 💡 Example Use Case
 
 If your folder looks like this:
